@@ -1,0 +1,161 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #D6DEE9;
+    font-size: 12;
+}
+
+a {
+ 	color: inherit; /* blue colors for links too */
+  	text-decoration: inherit; /* no underline */
+}
+
+.nav-container {
+    background: #D6DEE9;
+	position: -webkit-sticky;
+  	position: sticky;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	top: 0;
+  	padding: 40px 7%;
+  	font-size: 14px;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.nav {
+  	display: flex;
+}
+
+.nav-item {
+	padding-right: 30px;
+	text-transform: uppercase;
+    text: #606e75;
+}
+
+.active {
+	font-weight: bold;
+}
+
+/*
+canvas {
+  display: block;
+}
+
+*/
+
+/* --> Styling HOME <-- */
+
+.home-image-container {
+    
+    display: flex;
+    justify-content: center;
+ 	align-items: center;
+    padding: 3% 7% 01%;
+    
+    
+    /*
+    align-items: flex-start;
+    background-color: var(--mist-gray); 
+    cursor: pointer;
+    display: flex;
+    max-width: 1043px;
+    */
+    
+}
+
+.ls00 {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.home-image-description {
+    padding: 2% 95px;
+    font-size: 13;
+    
+}
+
+
+/* --> Styling page CODE <-- */
+
+
+.video-wrap {
+    padding: 5%;
+}
+
+
+/* --> code for styling Interact page <-- */
+
+
+#interact-box {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding:3%;
+    
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  
+}
+
+.interact-image-description{
+    padding: 5%8%2%
+}
+
+
+/*--> ABOUT section here <--*/
+.about-text {
+    display: block;
+    width:50%;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.about-image-container {
+    display: flex;
+ 	align-items: left;
+    padding: 5% ;
+}
+
+.about-image {
+    display: block;
+    width: 50%;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.about_text{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: space-between;
+
+}
+
+.construction{
+    padding:10%;
+    text-align: center;
+}
+
+
+.contact-page {
+    padding:15%;
+}
